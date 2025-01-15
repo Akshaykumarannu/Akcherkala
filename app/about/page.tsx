@@ -20,7 +20,7 @@ export default function About() {
           playsInline
           className="absolute w-full h-full object-cover"
         >
-          <source src="https://player.vimeo.com/external/494252666.hd.mp4?s=2f448cf4273903cc3f7f8626133a2052d7c5b961&profile_id=175" type="video/mp4" />
+          <source src="https://res.cloudinary.com/diqcdbpg4/video/upload/v1733512004/sample_video_gwmu34.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-black/50" />
         <div className="absolute inset-0 flex items-center justify-center">

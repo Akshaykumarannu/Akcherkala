@@ -7,8 +7,8 @@ import { Camera, Video, Users, Trophy, Sparkles } from "lucide-react";
 
 const categories = [
   { id: "all", label: "All", icon: Sparkles },
-  { id: "performance", label: "Performances", icon: Video },
-  { id: "workshop", label: "Workshops", icon: Users },
+  { id: "performance", label: " Stage Performances", icon: Video },
+  { id: "workshop", label: "Truck Dance Performances", icon: Users },
   { id: "practice", label: "Practice", icon: Camera },
   { id: "competition", label: "Competitions", icon: Trophy }
 ];

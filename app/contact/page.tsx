@@ -12,12 +12,43 @@ export default function Contact() {
       icon: MapPin,
       title: "Visit Us",
       details: [
-        "Asian Kids Dance Crew",
-        "123 Dance Street",
-        "Uduma & Kanhangad (KASARAGOD)"
+        "Asian Kids School of Dance & Music",
+        "Pady road, Near Supplyco, ",
+        "Cherkala(KASARAGOD)"
+        ,
+        
       ],
       color: "text-blue-500"
+
     },
+    {
+      icon: Phone,
+      title: "Call Us",
+      details: ["+91 81388 65559"],
+      action: {
+        text: "Call Now",
+        href: "tel:+918138865559"
+      },
+      color: "text-green-500"
+    },
+
+    
+    
+    {
+      icon: MapPin,
+      title: "Visit Us",
+      details: [
+        
+        ,
+        "Asian Kids Dance Sudio",
+        "Uduma,Near SBI Bank (KASARAGOD)"
+      ],
+      color: "text-blue-500"
+
+    
+    },
+    
+    
     {
       icon: Phone,
       title: "Call Us",

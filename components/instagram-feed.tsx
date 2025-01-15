@@ -7,47 +7,70 @@ import { Button } from "@/components/ui/button";
 
 const instagramPosts = [
   {
-    image: "https://images.unsplash.com/photo-1547153760-18fc86324498?auto=format&fit=crop&q=80",
+    image: "https://res.cloudinary.com/diqcdbpg4/image/upload/v1736408151/classical_image_akd_clpgy1.jpg",
     caption: "Dance Workshop 2024 🎭 Join us for an incredible journey of dance and expression!",
     postUrl: "https://www.instagram.com/p/C5GX8rPvtEM/",
     likes: 245,
     comments: 18
   },
   {
-    image: "https://images.unsplash.com/photo-1508700929628-666bc8bd84ea?auto=format&fit=crop&q=80",
+    image: "https://res.cloudinary.com/diqcdbpg4/image/upload/v1736409463/IMG-20240717-WA0018_wphmpf.jpg",
     caption: "Our students showcasing their talent at the annual performance ✨",
     postUrl: "https://www.instagram.com/p/C4_gGBTPq-q/",
     likes: 189,
     comments: 12
   },
   {
-    image: "https://images.unsplash.com/photo-1519925610903-381054cc2a1c?auto=format&fit=crop&q=80",
+    image: "https://res.cloudinary.com/diqcdbpg4/image/upload/v1736408814/classiacal_akd_2_jpez9x.jpg",
     caption: "Classical Dance Performance by our talented students 🌟",
     postUrl: "https://www.instagram.com/p/C4899PdPG0A/",
     likes: 324,
     comments: 27
   },
   {
-    image: "https://images.unsplash.com/photo-1535525153412-5a42439a210d?auto=format&fit=crop&q=80",
+    image: "https://res.cloudinary.com/diqcdbpg4/image/upload/v1736409372/IMG-20240717-WA0030_j8kpvy.jpg",
     caption: "Hip Hop Workshop - Learn from the best! 🎵",
     postUrl: "https://www.instagram.com/p/C46NQV_P2Ap/",
     likes: 156,
     comments: 9
   },
   {
-    image: "https://images.unsplash.com/photo-1508807526345-15e9b5f4eaff?auto=format&fit=crop&q=80",
+    image: "https://res.cloudinary.com/diqcdbpg4/image/upload/v1736411139/ak_group_2_zfqgxj.jpg",
     caption: "Contemporary Dance Class - Express yourself through movement 💫",
     postUrl: "https://www.instagram.com/p/C41c5aWvf_7/",
     likes: 278,
     comments: 21
   },
   {
-    image: "https://images.unsplash.com/photo-1518834107812-67b0b7c58434?auto=format&fit=crop&q=80",
+    image: "https://res.cloudinary.com/diqcdbpg4/image/upload/v1736410349/photo_7_lukrth.jpg",
     caption: "Join our Summer Dance Camp 2024! 🌞",
     postUrl: "https://www.instagram.com/p/C4y7Q7fPkxu/",
     likes: 198,
     comments: 15
-  }
+  },
+  {
+    image: "https://res.cloudinary.com/diqcdbpg4/image/upload/v1736414052/group_ak_5_sxlwcs.jpg",
+    caption: "Hip Hop Workshop - Learn from the best! 🎵",
+    postUrl: "https://www.instagram.com/p/C46NQV_P2Ap/",
+    likes: 156,
+    comments: 9
+  },
+  {
+    image: "https://res.cloudinary.com/diqcdbpg4/image/upload/v1736414464/group_ak_6_esl1to.jpg",
+    caption: "Classical Dance Performance by our talented students 🌟",
+    postUrl: "https://www.instagram.com/p/C4899PdPG0A/",
+    likes: 324,
+    comments: 27
+  },
+  
+  {
+    image: "https://res.cloudinary.com/diqcdbpg4/image/upload/v1736413577/group_ak_4_ykoe6n.jpg",
+    caption: "Contemporary Dance Class - Express yourself through movement 💫",
+    postUrl: "https://www.instagram.com/p/C41c5aWvf_7/",
+    likes: 278,
+    comments: 21
+  },
+  
 ];
 
 export function InstagramFeed() {

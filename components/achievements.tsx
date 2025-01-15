@@ -22,7 +22,7 @@ const achievements = [
   },
   {
     icon: Star,
-    number: 15,
+    number: 20,
     suffix: "+",
     title: "Years of Excellence",
     description: "Dedicated to dance education"

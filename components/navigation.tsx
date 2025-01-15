@@ -7,6 +7,8 @@ import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { ThemeToggle } from "@/components/theme-toggle";
+import Image from "next/image"; // Import Image from Next.js
+import logo from "../images/aklogo1.jpg";
 
 const routes = [
   { href: "/", label: "Home" },
@@ -24,8 +26,8 @@ export function Navigation() {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between">
-        <Link href="/" className="font-bold text-xl">
-          AKDC
+        <Link href="/" className="flex items-center">
+          <Image src={logo} alt="AKDC Logo" width={40} height={40} /> {/* Adjust size as needed */}
         </Link>
 
         <nav className="hidden md:flex gap-6">

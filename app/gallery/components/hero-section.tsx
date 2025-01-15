@@ -15,7 +15,7 @@ export function HeroSection() {
         playsInline
         className="absolute w-full h-full object-cover"
       >
-        <source src="https://assets.mixkit.co/videos/preview/mixkit-silhouette-of-a-woman-dancing-in-front-of-sunset-40940-large.mp4" type="video/mp4" />
+        <source src="https://res.cloudinary.com/diqcdbpg4/video/upload/v1733512712/WhatsApp_Video_2024-08-08_at_2.07.32_AM_uu7zjo.mp4" type="video/mp4" />
       </video>
       <div className="absolute inset-0 bg-black/60" />
       <ScrollReveal className="absolute inset-0 flex items-center justify-center text-center">

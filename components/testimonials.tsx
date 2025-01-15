@@ -9,39 +9,39 @@ import { useState, useEffect } from "react";
 
 const testimonials = [
   {
-    name: "Emily Chen",
+    name: "Priya",
     role: "Parent",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80",
-    quote: "My daughter has grown so much in confidence since joining AKDC. The instructors are amazing!"
+    image: "",
+    quote: "My daughter has grown so much in confidence since joining Asian Kids Dance Crew. The instructors are amazing!"
   },
   {
-    name: "David Kim",
+    name: "Sanjay",
     role: "Student",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80",
+    image: "",
     quote: "The dance classes here are fun and challenging. I've made great friends and learned awesome moves!"
   },
   {
-    name: "Sarah Wong",
+    name: "Ramesh",
     role: "Parent",
-    image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80",
-    quote: "AKDC provides a perfect balance of discipline and creativity. It's been wonderful for my kids."
+    image: "",
+    quote: "Asian Kids Dance Crew provides a perfect balance of discipline and creativity. It's been wonderful for my kids."
   },
   {
-    name: "Michael Zhang",
+    name: "Hemavathi",
     role: "Parent",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80",
+    image: "",
     quote: "The variety of classes and professional instruction has helped my son discover his passion for arts."
   },
   {
-    name: "Lisa Park",
+    name: "Atul",
     role: "Student",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80",
-    quote: "I've learned not just dance, but discipline, teamwork, and confidence. AKDC is like my second family!"
+    image: "",
+    quote: "I've learned not just dance, but discipline, teamwork, and confidence. Asian Kids Dance Crew is like my second family!"
   },
   {
-    name: "James Lee",
+    name: "Rajesh",
     role: "Parent",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80",
+    image: "",
     quote: "The growth we've seen in our children, both in skills and personality, has been remarkable."
   }
 ];
@@ -49,7 +49,7 @@ const testimonials = [
 export function Testimonials() {
   const [ref, inView] = useInView({
     triggerOnce: true,
-    threshold: 0.1
+    threshold: 0.4
   });
 
   const [currentPage, setCurrentPage] = useState(0);

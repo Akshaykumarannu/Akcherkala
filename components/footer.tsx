@@ -1,3 +1,4 @@
+
 export function Footer() {
   const navigation = {
     main: [

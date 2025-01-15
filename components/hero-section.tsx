@@ -15,10 +15,13 @@ export function HeroSection() {
         playsInline
         className="absolute w-full h-full object-cover"
       >
-        <source src="https://player.vimeo.com/external/494252666.hd.mp4?s=2f448cf4273903cc3f7f8626133a2052d7c5b961&profile_id=175" type="video/mp4" />
+        <source
+          src="https://player.vimeo.com/external/494252666.hd.mp4?s=2f448cf4273903cc3f7f8626133a2052d7c5b961&profile_id=175"
+          type="video/mp4"
+        />
       </video>
       <div className="absolute inset-0 bg-background/70 backdrop-blur-sm" />
-      
+
       <div className="relative container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -37,18 +40,20 @@ export function HeroSection() {
               <span className="gradient-text">New Classes Starting Soon</span>
             </span>
           </motion.div>
-          
-          <motion.h1 
+
+          <motion.h1
             className="text-5xl md:text-7xl font-bold mb-6 relative"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.8 }}
           >
-            Unleash Your Child's
-            <span className="gradient-text text-glow block mt-2">Dancing Spirit</span>
+            <span className="gradient-text text-glow block mt-2">
+              Asian Kids
+            </span>
+            School Of Dance & Music
           </motion.h1>
-          
-          <motion.p 
+
+          <motion.p
             className="text-xl md:text-2xl mb-8 text-muted-foreground"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -56,25 +61,25 @@ export function HeroSection() {
           >
             Where passion meets precision, and dreams take center stage
           </motion.p>
-          
-          <motion.div 
+
+          <motion.div
             className="space-x-4"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.8, duration: 0.8 }}
           >
-            <Button 
-              size="lg" 
+            <Button
+              size="lg"
               className="bg-gradient-to-r from-primary via-accent to-secondary hover:opacity-90 animate-gradient glow-effect"
               asChild
             >
               <Link href="/classes">
-                Start Dancing <ArrowRight className="ml-2 h-4 w-4" />
+                Join Us <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
-            <Button 
-              size="lg" 
-              variant="outline" 
+            <Button
+              size="lg"
+              variant="outline"
               className="gradient-border glass-effect"
               asChild
             >

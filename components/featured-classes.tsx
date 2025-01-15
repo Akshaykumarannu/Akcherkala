@@ -64,7 +64,7 @@ const classes = [
 export function FeaturedClasses() {
   const [ref, inView] = useInView({
     triggerOnce: true,
-    threshold: 0.1
+    threshold: 0.3
   });
 
   const [currentPage, setCurrentPage] = useState(0);
